@@ -54,7 +54,7 @@ let newGreeting = function(name){
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-const groceries = ["apples", 5, "milk", 2, "eggs", 12, "bread", 1]
+const groceries = ["apples", "milk", "eggs", "bread"]
 
 //////////////////PROBLEM 9////////////////////
 
@@ -63,7 +63,11 @@ const groceries = ["apples", 5, "milk", 2, "eggs", 12, "bread", 1]
 //name (a string), color (a string), age (a number),
 //and goodBoy (a boolean).
 
-let dog = {name: "Rex", color: "black", age: 3, goodBoy: true}
+let dog = {
+  name: "Rex", 
+  color: "black", 
+  age: 3, 
+  goodBoy: true}
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
